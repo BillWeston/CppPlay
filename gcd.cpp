@@ -7,13 +7,12 @@
 int main(int argc, char** argv)
 {
   int gcd = 0;
-  int remainder = -666;
+  int remainder = 0;
   int old_remainder;
 
-  if (argc > 2)
-    {
-      gcd = abs(atoi(argv[1])); 
-      remainder = abs(atoi(argv[2]));
+  while (argc-->0)
+    { 
+      remainder = abs(atoi(argv[argc]));
       while (remainder)
 	{
 	  old_remainder = remainder; 
