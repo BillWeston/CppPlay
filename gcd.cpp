@@ -4,6 +4,8 @@
 // Program to calculate the greatest common divisor of two numbers 
 // input from the command line
 // output to stdout.
+
+// Playing with this in debugger.
 int main(int argc, char** argv)
 {
   int gcd = 0;
