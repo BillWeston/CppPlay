@@ -1,1 +1,4 @@
 Write a load of shell programs to chain together a bit like Simulink bocks.
+
+The filters can be written in anything.
+
