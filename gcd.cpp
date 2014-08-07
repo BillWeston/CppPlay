@@ -25,3 +25,5 @@ int main(int argc, char** argv)
   std::cout << gcd << std::endl;
   return remainder;
 }
+
+Process gdb-inferior killed: 9
